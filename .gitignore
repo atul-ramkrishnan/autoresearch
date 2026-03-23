@@ -1,4 +1,4 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
 build/
@@ -8,16 +8,18 @@ wheels/
 
 # Virtual environments
 .venv
-worktrees/
-results/
-queue/
 
-# Agent prompt files (generated per-session by launchers)
-CLAUDE.md
-AGENTS.md
+# Secrets
+.env
 
-# Experimental code/artifacts
-dev/
+# Runtime artifacts
+experiments.jsonl
+run.log
 
-# Results file
-results.tsv
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
