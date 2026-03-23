@@ -24,8 +24,7 @@ The agent does the thinking. The harness does the bookkeeping.
 
 ```bash
 # 1. Install (once)
-cd path/to/autoresearch
-pip install -e .
+uv tool install path/to/autoresearch
 
 # 2. Go to your project
 cd ~/code/my-project
